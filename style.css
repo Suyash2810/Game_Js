@@ -1,0 +1,165 @@
+.well {
+    width: 350px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 35%;
+    box-shadow: 10px 10px 41px 7px grey;
+    border-radius: 20px;
+}
+
+p {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: grey;
+}
+
+body {
+    background: linear-gradient(to right, rgba(212, 228, 239, 1) 0%, rgba(134, 174, 204, 1) 100%);
+}
+
+/*
+image url for cross icon https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlIkiXK3EWg93hQlya0Yc4tABBD18Lu4EqDpUt1oVuoTDkWD7F
+for zero https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCYMOCp6QQxU7wrCnutAJIB3KvmikgB_KjWcw3XX0RX8JYYkXA
+
+
+*/
+
+.box1 {
+    width: 70px;
+    height: 70px;
+    background-color: rgba(134, 174, 204, 1);
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 25px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWKlmWoZtnXd9Z_OvSVq19nqP-mX0JTJl2ELx39J9XS7WMX6Ql');
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box2 {
+    width: 70px;
+    height: 70px;
+    background-color: rgba(134, 174, 204, 1);
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWKlmWoZtnXd9Z_OvSVq19nqP-mX0JTJl2ELx39J9XS7WMX6Ql');
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.box3 {
+    width: 70px;
+    height: 70px;
+    background-color: rgba(134, 174, 204, 1);
+    margin-top: 20px;
+    border-radius: 5px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWKlmWoZtnXd9Z_OvSVq19nqP-mX0JTJl2ELx39J9XS7WMX6Ql');
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box4 {
+
+    width: 70px;
+    height: 70px;
+    background-color: rgba(134, 174, 204, 1);
+    margin-top: 40px;
+    border-radius: 5px;
+    margin-left: 25px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWKlmWoZtnXd9Z_OvSVq19nqP-mX0JTJl2ELx39J9XS7WMX6Ql');
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box5 {
+
+    width: 70px;
+    height: 70px;
+    background-color: rgba(134, 174, 204, 1);
+    margin-top: 40px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWKlmWoZtnXd9Z_OvSVq19nqP-mX0JTJl2ELx39J9XS7WMX6Ql');
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box6 {
+
+    width: 70px;
+    height: 70px;
+    background-color: rgba(134, 174, 204, 1);
+    margin-top: 40px;
+    border-radius: 5px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWKlmWoZtnXd9Z_OvSVq19nqP-mX0JTJl2ELx39J9XS7WMX6Ql');
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box7 {
+
+    width: 70px;
+    height: 70px;
+    background-color: rgba(134, 174, 204, 1);
+    margin-top: 40px;
+    border-radius: 5px;
+    margin-left: 25px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWKlmWoZtnXd9Z_OvSVq19nqP-mX0JTJl2ELx39J9XS7WMX6Ql');
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.box8 {
+
+    width: 70px;
+    height: 70px;
+    background-color: rgba(134, 174, 204, 1);
+    margin-top: 40px;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWKlmWoZtnXd9Z_OvSVq19nqP-mX0JTJl2ELx39J9XS7WMX6Ql');
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.box9 {
+
+    width: 70px;
+    height: 70px;
+    background-color: rgba(134, 174, 204, 1);
+    margin-top: 40px;
+    border-radius: 5px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWKlmWoZtnXd9Z_OvSVq19nqP-mX0JTJl2ELx39J9XS7WMX6Ql');
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#resetbtn {
+    width: 80%;
+    margin-top: 45px;
+    margin-left: 30px;
+
+}
+
+#resetbtn p {
+    font-family: cursive;
+    font-style: italic;
+    color: white;
+    font-weight: 300;
+
+}
