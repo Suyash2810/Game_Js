@@ -17,10 +17,7 @@ var sdi1 = 0,
     sdi2 = 0;
 var chance = 0;
 
-
-
-
-
+var reset = document.querySelector('#resetbtn');
 
 
 //event listeners
@@ -38,6 +35,7 @@ function eventlisteners() {
     document.querySelector('.box7').addEventListener('click', btnfunc7);
     document.querySelector('.box8').addEventListener('click', btnfunc8);
     document.querySelector('.box9').addEventListener('click', btnfunc9);
+    reset.addEventListener('click', resetFunc);
 }
 
 
@@ -350,4 +348,36 @@ function func() {
             .replay()
             .generate();
     });
+}
+
+function resetFunc() {
+    document.querySelector('.box1').style.backgroundImage = "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWKlmWoZtnXd9Z_OvSVq19nqP-mX0JTJl2ELx39J9XS7WMX6Ql')";
+    document.querySelector('.box2').style.backgroundImage = "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWKlmWoZtnXd9Z_OvSVq19nqP-mX0JTJl2ELx39J9XS7WMX6Ql')";
+    document.querySelector('.box3').style.backgroundImage = "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWKlmWoZtnXd9Z_OvSVq19nqP-mX0JTJl2ELx39J9XS7WMX6Ql')";
+    document.querySelector('.box4').style.backgroundImage = "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWKlmWoZtnXd9Z_OvSVq19nqP-mX0JTJl2ELx39J9XS7WMX6Ql')";
+    document.querySelector('.box5').style.backgroundImage = "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWKlmWoZtnXd9Z_OvSVq19nqP-mX0JTJl2ELx39J9XS7WMX6Ql')";
+    document.querySelector('.box6').style.backgroundImage = "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWKlmWoZtnXd9Z_OvSVq19nqP-mX0JTJl2ELx39J9XS7WMX6Ql')";
+    document.querySelector('.box7').style.backgroundImage = "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWKlmWoZtnXd9Z_OvSVq19nqP-mX0JTJl2ELx39J9XS7WMX6Ql')";
+    document.querySelector('.box8').style.backgroundImage = "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWKlmWoZtnXd9Z_OvSVq19nqP-mX0JTJl2ELx39J9XS7WMX6Ql')";
+    document.querySelector('.box9').style.backgroundImage = "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWKlmWoZtnXd9Z_OvSVq19nqP-mX0JTJl2ELx39J9XS7WMX6Ql')";
+
+    row1 = 0,
+        row2 = 0,
+        row3 = 0;
+    col1 = 0,
+        col2 = 0,
+        col3 = 0;
+    di1 = 0,
+        di2 = 0;
+    srow1 = 0,
+        srow2 = 0,
+        srow3 = 0;
+    scol1 = 0,
+        scol2 = 0,
+        scol3 = 0;
+    sdi1 = 0,
+        sdi2 = 0;
+    chance = 0;
+
+
 }
